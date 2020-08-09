@@ -1,0 +1,18 @@
+.gif {
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 16px;
+}
+
+.title {
+    margin: 0px;
+}
+
+.image {
+    object-fit: contain;
+}
