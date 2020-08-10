@@ -3,9 +3,9 @@ import "./styles.css";
 
 export const Gif = ({ title, id, url }) => {
     return (
-        <a href={`#${id}`} className="gif">
+        <a href={`/gif/${id}`} className="gif">
             <h4 className="title">{title}</h4>
-            <img className="image" src={url} alt={title} />
+            <img loading="lazy" className="image" src={url} alt={title} />
         </a>
     );
 };

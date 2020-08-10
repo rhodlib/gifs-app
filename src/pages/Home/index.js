@@ -6,7 +6,7 @@ import ListOfGifs from "../../components/ListOfGifs";
 export const Home = () => {
     const [keyword, setKeyword] = useState("");
     const [path, pushLocation] = useLocation();
-    const { loading, gifs } = useGifs();
+    const { gifs } = useGifs();
 
     const handleChange = event => {
         setKeyword(event.target.value);
