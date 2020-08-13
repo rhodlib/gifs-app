@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Link } from "wouter";
-import Home from "./pages/Home";
-import SearchResults from "./pages/SearchResults";
-import Detail from "./pages/Detail";
-import StaticContext from "./context/StaticContext";
+import Home from "pages/Home";
+import SearchResults from "pages/SearchResults";
+import Detail from "pages/Detail";
+import StaticContext from "context/StaticContext";
 import "./App.css";
-import { GifsContextProvider } from "./context/GifsContext";
+import { GifsContextProvider } from "context/GifsContext";
 
 export const App = () => {
     return (

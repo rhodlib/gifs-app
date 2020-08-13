@@ -1,7 +1,7 @@
 import React from "react";
-import Loader from "../../components/Loader";
-import ListOfGifs from "../../components/ListOfGifs";
-import { useGifs } from "../../hooks/useGifs";
+import Loader from "components/Loader";
+import ListOfGifs from "components/ListOfGifs";
+import { useGifs } from "hooks/useGifs";
 
 export const SearchResults = ({ params }) => {
     const { keyword } = params;
