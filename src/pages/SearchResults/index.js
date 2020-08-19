@@ -5,9 +5,16 @@ import { useGifs } from "hooks/useGifs";
 
 export const SearchResults = ({ params }) => {
     const { keyword } = params;
-    const { loading, gifs } = useGifs({ keyword });
+    const { loading, gifs, setPage } = useGifs({ keyword });
 
-    return <>{loading ? <Loader /> : <ListOfGifs gifs={gifs} />}</>;
+    const handleNextPage = () => setPage(prevPage => prevPage + 1);
+
+    return (
+        <>
+            {loading ? <Loader /> : <ListOfGifs gifs={gifs} />}{" "}
+            <button onClick={handleNextPage}>More gifs</button>
+        </>
+    );
 };
 
 export default SearchResults;

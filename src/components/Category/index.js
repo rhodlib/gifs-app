@@ -7,7 +7,7 @@ export const Category = ({ name, list = [] }) => {
             <h2>{name}</h2>
             <ul>
                 {list.map(item => (
-                    <li>
+                    <li key={item}>
                         <Link to={`/search/${item}`}>{item}</Link>
                     </li>
                 ))}
