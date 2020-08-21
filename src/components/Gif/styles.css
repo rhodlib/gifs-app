@@ -1,18 +1,24 @@
 .gif {
-    border: 2px solid white;
-    border-radius: 5px;
     color: white;
+    display: block;
     text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    margin: 16px;
+    position: relative;
+    width: 100%;
+    display: inline-block;
 }
 
 .title {
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
     margin: 0px;
 }
 
 .image {
     object-fit: contain;
-    width: 200px;
+    width: 100%;
 }
