@@ -29,7 +29,7 @@ export const SearchResults = ({ params }) => {
                 <Loader />
             ) : (
                 <>
-                    <h3 className="App-title">{decodeURI(keyword)}</h3>
+                    <h3 className="app-title">{decodeURI(keyword)}</h3>
                     <ListOfGifs gifs={gifs} />
                     <div id="visor" ref={externalRef}></div>
                 </>

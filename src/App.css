@@ -12,3 +12,13 @@
     padding: 16px;
     color: white;
 }
+
+.app-logo {
+    cursor: pointer;
+    font-size: 64px;
+}
+
+.app-title {
+    font-size: 34px;
+    align-self: start;
+}

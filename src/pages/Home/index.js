@@ -28,7 +28,7 @@ export const Home = () => {
                     value={keyword}
                 />
             </form>
-            <h3>Last Search</h3>
+            <h3 className="app-title">Last Search</h3>
             <ListOfGifs gifs={gifs} />
             <TrendingSearches />
         </>

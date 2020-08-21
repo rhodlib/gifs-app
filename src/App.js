@@ -13,7 +13,7 @@ export const App = () => {
             <div className="app">
                 <section className="app-content">
                     <Link to="/">
-                        <h1>FAST gifs</h1>
+                        <h1 className="app-logo">FastGifs</h1>
                     </Link>
                     <GifsContextProvider>
                         <Route path="/" component={Home} />
