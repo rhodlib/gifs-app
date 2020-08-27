@@ -3,7 +3,7 @@
 }
 
 .app-content {
-    background-color: #232323;
+    background-color: #000;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -21,4 +21,11 @@
 .app-title {
     font-size: 34px;
     align-self: start;
+}
+
+.input-form {
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    border: none;
 }
